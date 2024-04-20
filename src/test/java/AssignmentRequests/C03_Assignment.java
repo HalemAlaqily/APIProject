@@ -5,6 +5,8 @@ import io.restassured.response.Response;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 
+import java.util.Collections;
+
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasSize;
 
@@ -22,21 +24,20 @@ public class C03_Assignment {
 //    HTTP Status code should be 404
         int statusCode = response.statusCode();
         System.out.println("Status Code = " + statusCode);
-//        response.then().statusCode(404);
+        response.then().statusCode(404);
 
 //    Status Line should be HTTP/1.1 404 Not Found
-//        String statusLine = response.statusLine();
-//        System.out.println("Status Line = " + statusLine);
-//        response.then().statusLine("HTTP/1.1 404 Not Found");
-
+        String statusLine = response.statusLine();
+        System.out.println("Status Line = " + statusLine);
+        response.then().statusLine("HTTP/1.1 404 Not Found");
         Assert.assertEquals(statusCode,404);
-
-
 
 //    Server is "cloudflare"
     String server = response.header("server");
                 System.out.println("server = " + server);
+            Assert.assertEquals(server,"cloudflare");
 
 //    Response body should be empty
+            response.then().body("",equalTo(Collections.emptyMap()));
 
 }}
