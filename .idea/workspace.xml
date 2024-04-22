@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a13987ed-f324-4217-bf06-1388fc9df8ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C01_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C02_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C03_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C04_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C05_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C06_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/requests/C01_RequestAndResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/requests/C02_AssertHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/requests/C03_AssertHeaderAndBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/requests/C04_AssertBodyHamcrest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C09_Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C10_Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C02_Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C02_Assignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C04_Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C04_Assignment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2fDUbKEyRixhqWk50pOiWzHR45J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,13 +48,16 @@
     "TestNG.C04_Assignment.assertMethod.executor": "Run",
     "TestNG.C05_Assignment.Assignment.executor": "Run",
     "TestNG.C06_Assignment.postRequestTest.executor": "Run",
+    "TestNG.C09_Assignment.executor": "Run",
+    "TestNG.C09_Assignment.postTest.executor": "Run",
+    "TestNG.C10_Assignment.postTest.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C06_Assignment.postRequestTest">
-    <configuration name="C03_Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C03_Assignment" />
+  <component name="RunManager" selected="TestNG.C10_Assignment.postTest">
+    <configuration name="C02_Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C02_Assignment" />
       <module name="APIProject" />
       <extension name="coverage">
         <pattern>
@@ -73,24 +65,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_Assignment.assertMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AssignmentRequests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AssignmentRequests" />
-      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C03_Assignment" />
-      <option name="METHOD_NAME" value="assertMethod" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,7 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_Assignment.Assignment" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C09_Assignment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIProject" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +96,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AssignmentRequests" />
-      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C05_Assignment" />
-      <option name="METHOD_NAME" value="Assignment" />
+      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C09_Assignment" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C09_Assignment.postTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AssignmentRequests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AssignmentRequests" />
+      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C09_Assignment" />
+      <option name="METHOD_NAME" value="postTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_Assignment.postRequestTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C10_Assignment.postTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIProject" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +131,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AssignmentRequests" />
-      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C06_Assignment" />
-      <option name="METHOD_NAME" value="postRequestTest" />
+      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C10_Assignment" />
+      <option name="METHOD_NAME" value="postTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -151,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C06_Assignment.postRequestTest" />
-        <item itemvalue="TestNG.C05_Assignment.Assignment" />
+        <item itemvalue="TestNG.C10_Assignment.postTest" />
+        <item itemvalue="TestNG.C09_Assignment.postTest" />
+        <item itemvalue="TestNG.C09_Assignment" />
         <item itemvalue="TestNG.C04_Assignment.assertMethod" />
-        <item itemvalue="TestNG.C03_Assignment.assertMethod" />
-        <item itemvalue="Application.C03_Assignment" />
+        <item itemvalue="Application.C02_Assignment" />
       </list>
     </recent_temporary>
   </component>
@@ -188,20 +179,11 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C03_Assignment.java</url>
           <line>14</line>
-          <properties class="AssignmentRequests.C03_Assignment" method="assertMethod">
+          <properties class="AssignmentRequests.C03_Assignment">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C04_Assignment.java</url>
-          <line>10</line>
-          <properties class="AssignmentRequests.C04_Assignment" method="assertMethod">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C06_Assignment.java</url>
@@ -211,6 +193,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C03_Assignment.java</url>
+          <line>16</line>
+          <properties class="AssignmentRequests.C03_Assignment" method="assertMethod">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C10_Assignment.java</url>
+          <line>15</line>
+          <properties class="AssignmentRequests.C10_Assignment" method="postTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

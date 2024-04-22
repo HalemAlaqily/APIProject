@@ -22,7 +22,7 @@ public class C04_Assignment {
 //        Response content type is "application/json; charset=utf-8"
         String contentType = response.contentType();
         System.out.println("Content Type = " + contentType);
-        response.then().contentType("application/json");
+        //response.then().contentType("application/json");
 
         //Convert Response to JsonPath object
         JsonPath jsonPath = response.jsonPath();
@@ -40,7 +40,7 @@ public class C04_Assignment {
         SoftAssert softAssert = new SoftAssert();
 
         //2nd step: Do assertion
-        softAssert.assertEquals(contentType,"application/json");
+        softAssert.assertEquals(contentType,"application/json; charset=utf-8");
         softAssert.assertEquals(statusCode,200);
         softAssert.assertEquals(id, 3);
         softAssert.assertEquals(name, "true red");

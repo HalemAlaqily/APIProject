@@ -27,12 +27,12 @@ public class C02_Assignment {
 
 
 //        "email" is "janet.weaver@reqres.in"
-        response.then().body("email",equalTo("janet.weaver@reqres.in"));
+        response.then().body("data.email",equalTo("janet.weaver@reqres.in"));
 
 //        "first_name" is "Janet"
-        response.then().body("first_name",equalTo("Janet"));
+        response.then().body("data.first_name",equalTo("Janet"));
 //        "last_name" is "Weaver"
-        response.then().body("last_name",equalTo("Weaver"));
+        response.then().body("data.last_name",equalTo("Weaver"));
 //        "text" is "To keep ReqRes free, contributions towards server costs are appreciated!"
-        response.then().body("text",equalTo("To keep ReqRes free, contributions towards server costs are appreciated!"));
+        response.then().body("support.text",equalTo("To keep ReqRes free, contributions towards server costs are appreciated!"));
     }}
