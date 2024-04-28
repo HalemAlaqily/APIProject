@@ -36,19 +36,21 @@ public class C12_Assignment extends JsonPlaceHolderBaseUrl {
         response.jsonPath().prettyPrint();
 
         //Get Request
-        Response response2 = given().get("https://petstore.swagger.io/v2/pet/9223372036854775807");
-        response2.jsonPath().prettyPrint();
+        response = given().get("https://petstore.swagger.io/v2/pet/9223372036854775807");
+        response.jsonPath().prettyPrint();
 
         //Update Reqyest
-        actualData1.setId(1);
+        actualData1.setId(0);
         actualData1.setName("MARSHALL-D-TEACH");
         actualData1.getCategory().setName("zorro");
         actualData1.getPhotoUrls().add("Picture of dog's bone");
         System.out.println("actualData1 = " + actualData1);
 
         //Delete Request
-        Response respose = given(spec).delete("https://petstore.swagger.io/v2/pet/9223372036854775807");
-        respose.jsonPath().prettyPrint();
+        String Urrl = "https://petstore.swagger.io/v2/pet/9223372036854775807";
+
+        response= given().delete(Urrl);
+        response.jsonPath().prettyPrint();
 
 
     }
