@@ -10,9 +10,9 @@ public class JsonPlaceHolder_Assignment {
     public void setSpec() {
 
         spec = new RequestSpecBuilder()
-                .setBaseUri("https://automationexercise.com/api/productsList")
+                .setBaseUri("https://automationexercise.com")
                 .setContentType(ContentType.JSON)
                 .build();
 
     }
-}
+}//

@@ -16,7 +16,7 @@ public class C09_Assignment extends JsonPlaceHolderBaseUrl{
     public void postTest(){
         spec.pathParams("first", "v2","second","user");
         Map<String, Object> expectedData = new HashMap<>();
-
+//        Map<String,Object> postMap = new HashMap<>();
         //List<Map<String, Object>> users = new ArrayList<>();
         Map<String,Object> postMap = new HashMap<>();
         postMap.put("id",10);

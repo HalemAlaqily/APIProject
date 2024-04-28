@@ -25,13 +25,12 @@ public class C11_Assignment extends JsonPlaceHolder_Assignment{
         Response response = given(spec).get("{first}/{second}");
 
         response.jsonPath().prettyPrint();
-
-        JsonPath jsonPath = new JsonPath(response.asString());//to-parse-the-json
+        JsonPath jsonPath = new JsonPath(response.asString()).setRootPath("products.category.usertype");;//to-parse-the-json
         //response.then().statusCode(200);
-        Object user_Type = jsonPath.getInt("findAll{it.usertype=='Women'}.product");
+        Object user_Type = jsonPath.getInt("findAll{it.usertype=='Women'}.size()");
         System.out.println("User Type = " + user_Type);
         assertEquals(user_Type, 12);
 
     }
-
+//
 }

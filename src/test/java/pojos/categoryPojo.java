@@ -6,7 +6,7 @@ public class categoryPojo {
 
     public categoryPojo() {
     }
-
+//
     public categoryPojo(int id, String name) {
         this.id = id;
         this.name = name;
