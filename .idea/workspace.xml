@@ -5,18 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a13987ed-f324-4217-bf06-1388fc9df8ca" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C09_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C10_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C11_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C12_1_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C12_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolder_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceHolderPojo_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/categoryPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/petPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/tagPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C13_AssignmentDeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C13_AssignmentGetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C13_AssignmentPutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C13_AssignmentpostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C14_Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C15_AssignmentDeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C15_AssignmentGettRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C15_AssignmentPostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C15_AssignmentPutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignmentRequests/C16_AssignmentPostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/BaseUrlEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/BaseUrlPet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/BaseUrlUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceHolderPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/PetStoreUser/StoreUserSetUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/UserContact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/UserPojoRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/UserSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/requests/C24_ObjectMapperPostPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ObjMapperUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/petPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/petPojo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +71,32 @@
     "TestNG.C09_Assignment.postTest.executor": "Run",
     "TestNG.C10_Assignment.postTest.executor": "Run",
     "TestNG.C10_Assignment.testAvailablePet.executor": "Run",
+    "TestNG.C11_Assignment.executor": "Run",
     "TestNG.C11_Assignment.postRequestPojoTest.executor": "Run",
     "TestNG.C12_1_Assignment.executor": "Run",
     "TestNG.C12_1_Assignment.getRequestPojoTest.executor": "Run",
     "TestNG.C12_Assignment.createPet.executor": "Run",
     "TestNG.C12_Assignment.executor": "Run",
     "TestNG.C12_Assignment.postPet.executor": "Run",
+    "TestNG.C13_Assignment.post.executor": "Run",
+    "TestNG.C13_AssignmentDeleteRequest.deleteRequest.executor": "Run",
+    "TestNG.C13_AssignmentDeleteRequest.executor": "Run",
+    "TestNG.C13_AssignmentGetRequest.executor": "Run",
+    "TestNG.C13_AssignmentGetRequest.getRequest (1).executor": "Debug",
+    "TestNG.C13_AssignmentGetRequest.getRequest.executor": "Run",
+    "TestNG.C13_AssignmentPutRequest.postRequest.executor": "Run",
+    "TestNG.C13_AssignmentpostRequest.postRequest.executor": "Run",
+    "TestNG.C14_Assignment.employee.executor": "Run",
+    "TestNG.C15_AssignmentGettRequest.putRequest.executor": "Run",
+    "TestNG.C15_AssignmentPostRequest.postRequest.executor": "Run",
+    "TestNG.C16_AssignmentPostRequest.postRequest.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C10_Assignment.testAvailablePet">
-    <configuration name="C09_Assignment.postTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C16_AssignmentPostRequest.postRequest">
+    <configuration name="C13_AssignmentDeleteRequest.deleteRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIProject" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +105,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AssignmentRequests" />
-      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C09_Assignment" />
-      <option name="METHOD_NAME" value="postTest" />
+      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C13_AssignmentDeleteRequest" />
+      <option name="METHOD_NAME" value="deleteRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C10_Assignment.testAvailablePet" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C14_Assignment.employee" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIProject" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +123,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AssignmentRequests" />
-      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C10_Assignment" />
-      <option name="METHOD_NAME" value="testAvailablePet" />
+      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C14_Assignment" />
+      <option name="METHOD_NAME" value="employee" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C12_1_Assignment.getRequestPojoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C15_AssignmentGettRequest.putRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIProject" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +141,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AssignmentRequests" />
-      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C12_1_Assignment" />
-      <option name="METHOD_NAME" value="getRequestPojoTest" />
+      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C15_AssignmentGettRequest" />
+      <option name="METHOD_NAME" value="putRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C12_Assignment" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C15_AssignmentPostRequest.postRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIProject" />
       <extension name="coverage">
         <pattern>
@@ -132,15 +159,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AssignmentRequests" />
-      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C12_Assignment" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C15_AssignmentPostRequest" />
+      <option name="METHOD_NAME" value="postRequest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C12_Assignment.postPet" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C16_AssignmentPostRequest.postRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIProject" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +177,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AssignmentRequests" />
-      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C12_Assignment" />
-      <option name="METHOD_NAME" value="postPet" />
+      <option name="MAIN_CLASS_NAME" value="AssignmentRequests.C16_AssignmentPostRequest" />
+      <option name="METHOD_NAME" value="postRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C10_Assignment.testAvailablePet" />
-        <item itemvalue="TestNG.C09_Assignment.postTest" />
-        <item itemvalue="TestNG.C12_Assignment.postPet" />
-        <item itemvalue="TestNG.C12_Assignment" />
-        <item itemvalue="TestNG.C12_1_Assignment.getRequestPojoTest" />
+        <item itemvalue="TestNG.C16_AssignmentPostRequest.postRequest" />
+        <item itemvalue="TestNG.C15_AssignmentPostRequest.postRequest" />
+        <item itemvalue="TestNG.C15_AssignmentGettRequest.putRequest" />
+        <item itemvalue="TestNG.C14_Assignment.employee" />
+        <item itemvalue="TestNG.C13_AssignmentDeleteRequest.deleteRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +220,31 @@
       <option name="project" value="LOCAL" />
       <updated>1713767519726</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1714326871106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714326871106</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1714327921392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714327921392</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1714328106716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714328106716</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +284,31 @@
           <line>16</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C12_Assignment.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C13_AssignmentpostRequest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C13_AssignmentGetRequest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/ObjMapperUtils.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C13_AssignmentDeleteRequest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C03_Assignment.java</url>
           <line>14</line>
@@ -258,6 +335,42 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C13_AssignmentpostRequest.java</url>
+          <line>13</line>
+          <properties class="AssignmentRequests.C13_AssignmentpostRequest" method="postRequest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/pojos/UserSetting.java</url>
+          <line>87</line>
+          <properties class="pojos.UserSetting" method="toString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C13_AssignmentDeleteRequest.java</url>
+          <line>11</line>
+          <properties class="AssignmentRequests.C13_AssignmentDeleteRequest" method="deleteRequest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/AssignmentRequests/C15_AssignmentPostRequest.java</url>
+          <line>17</line>
+          <properties class="AssignmentRequests.C15_AssignmentPostRequest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
