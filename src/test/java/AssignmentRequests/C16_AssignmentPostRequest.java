@@ -16,8 +16,8 @@ public class C16_AssignmentPostRequest extends BaseUrlUser {
         spec.pathParams("first", "users");
         String strJson= """
                 {
-                             "firstName": "John1",
-                             "lastName": "Doe1",
+                             "firstName": "ryo",
+                             "lastName": "ricko",
                              "birthdate": "1970-02-01",
                               "email": "jdoe@fake2.com",
                               "phone": "80055555552",
