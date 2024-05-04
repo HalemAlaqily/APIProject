@@ -7,6 +7,7 @@ import pojos.Assignment16;
 import utilities.ObjMapperUtils;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
+import static org.testng.Assert.assertEquals;
 import static utilities.ObjMapperUtils.convertJsonToJava;
 public class C16_AssignmentPostRequest extends BaseUrlUser {
 
@@ -37,6 +38,21 @@ public class C16_AssignmentPostRequest extends BaseUrlUser {
 
         Assignment16 actualData = convertJsonToJava(response.asString(), Assignment16.class);
         System.out.println("actualData = " + actualData);
+        System.out.println("actualData = " + actualData);
+
+        assertEquals(201, response.statusCode());
+        assertEquals(expectedData.getFirstName(), actualData.getFirstName());
+        assertEquals(expectedData.getLastName(), actualData.getLastName());
+        assertEquals(expectedData.getBirthdate(), actualData.getBirthdate());
+        assertEquals(expectedData.getCity(), actualData.getCity());
+        assertEquals(expectedData.getCountry(), actualData.getCountry());
+        assertEquals(expectedData.getPhone(), actualData.getPhone());
+        assertEquals(expectedData.getEmail(), actualData.getEmail());
+        assertEquals(expectedData.getStreet1(), actualData.getStreet1());
+        assertEquals(expectedData.getStreet2(), actualData.getStreet2());
+        assertEquals(expectedData.getPostalCode(), actualData.getPostalCode());
+        assertEquals(expectedData.getStateProvince(), actualData.getStateProvince());
+
 
 
 
