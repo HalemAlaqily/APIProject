@@ -36,9 +36,9 @@ public class C16_AssignmentPostRequest extends BaseUrlUser {
         Response response = given(spec).body(expectedData).post("{first}");
         response.prettyPrint();
 
-        Assignment16 actualData = convertJsonToJava(response.asString(), Assignment16.class);
+        Assignment16 actualData = response.as(Assignment16.class);
         System.out.println("actualData = " + actualData);
-        System.out.println("actualData = " + actualData);
+
 
         assertEquals(201, response.statusCode());
         assertEquals(expectedData.getFirstName(), actualData.getFirstName());
