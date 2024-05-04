@@ -20,14 +20,14 @@ public class C16_AssignmentPostRequest extends BaseUrlUser {
                              "firstName": "ryo",
                              "lastName": "ricko",
                              "birthdate": "1970-02-01",
-                              "email": "jdoe@fake2.com",
-                              "phone": "80055555552",
-                               "street1": "1 Main St2.",
-                               "street2": "Apartment A2",
-                                "city": "Anytown2",
-                                 "stateProvince": "KS2",
+                              "email": "jdoe@fake.com",
+                              "phone": "0550505050505",
+                               "street1": "Main St.",
+                               "street2": "Apartment A",
+                                "city": "New Mixico",
+                                 "stateProvince": "West COst18",
                                  "postalCode": "123452",
-                                  "country": "USA2"
+                                  "country": "Mixco"
                          }
                 """;
         Assignment16 expectedData = convertJsonToJava(strJson, Assignment16.class);
