@@ -18,11 +18,11 @@ public class Authentication {
         String email="";
 
         if (email==null){
-            bodyMap.put("email", "jasonsteel@gmail.com");//If the email is null we will assign our email and password.
-            bodyMap.put("password", "Jason.123");
+            bodyMap.put("email", "halema@mail.com");//If the email is null we will assign our email and password.
+            bodyMap.put("password", "lolo.123");
         }else {
-            bodyMap.put("email", "linastraaa@gmail.com");//This email will be assigned by selenium run. If selenium does not work, this will be null.
-            bodyMap.put("password", "Linastra1420");
+            bodyMap.put("email", "halema@mail.com");//This email will be assigned by selenium run. If selenium does not work, this will be null.
+            bodyMap.put("password", "lolo1234");
         }
 
 
