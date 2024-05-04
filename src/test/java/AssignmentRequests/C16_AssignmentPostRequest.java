@@ -30,7 +30,7 @@ public class C16_AssignmentPostRequest extends BaseUrlUser {
                                   "country": "Mixco"
                          }
                 """;
-        Assignment16 expectedData = convertJsonToJava(strJson, Assignment16.class);
+        Assignment16 expectedData = ObjMapperUtils.convertJsonToJava(strJson, Assignment16.class);
         System.out.println("expectedData = " + expectedData);
 
         Response response = given(spec).body(expectedData).post("{first}");
