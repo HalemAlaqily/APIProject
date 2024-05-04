@@ -3,7 +3,7 @@ import base_urls.BaseUrlUser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-import pojos.UserContact;
+import pojos.Assignment16;
 import utilities.ObjMapperUtils;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
@@ -29,13 +29,13 @@ public class C16_AssignmentPostRequest extends BaseUrlUser {
                                   "country": "USA2"
                          }
                 """;
-        UserContact expectedData = convertJsonToJava(strJson, UserContact.class);
+        Assignment16 expectedData = convertJsonToJava(strJson, Assignment16.class);
         System.out.println("expectedData = " + expectedData);
 
         Response response = given(spec).body(expectedData).post("{first}");
         response.prettyPrint();
 
-        UserContact actualData = convertJsonToJava(response.asString(), UserContact.class);
+        Assignment16 actualData = convertJsonToJava(response.asString(), Assignment16.class);
         System.out.println("actualData = " + actualData);
 
 
