@@ -14,7 +14,7 @@ public class C16_AssignmentPostRequest extends BaseUrlUser {
     @Test
     public void postRequest() {
 
-        spec.pathParams("first", "users");
+        spec.pathParams("first", "contacts");
         String strJson= """
                 {
                              "firstName": "ryo",
